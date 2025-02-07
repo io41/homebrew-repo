@@ -1,18 +1,12 @@
-# Io41 Repo
+# io41's Brew Repo
 
-## How do I install these formulae?
+## Packages/Formulae
 
-`brew install io41/repo/<formula>`
+### rmapi
 
-Or `brew tap io41/repo` and then `brew install <formula>`.
+[rMAPI](https://github.com/ddvk/rmapi) is a Go app that allows you to access the ReMarkable Cloud API programmatically.
 
-Or, in a [`brew bundle`](https://github.com/Homebrew/homebrew-bundle) `Brewfile`:
-
-```ruby
-tap "io41/repo"
-brew "<formula>"
+```bash
+brew install io41/repo/rmapi
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
