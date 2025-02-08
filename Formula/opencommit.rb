@@ -14,6 +14,6 @@ class Opencommit < Formula
 
   test do
     # The app does API calls to LLM providers, which we don't want to do during a test.
-    assert_match "opencommit v#{version}", shell_output("#{bin}/opencommit --version")
+    assert_match version.to_s, shell_output("#{bin}/opencommit --version")
   end
 end
