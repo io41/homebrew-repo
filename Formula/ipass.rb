@@ -1,8 +1,8 @@
 class Ipass < Formula
   desc "CLI to interact with Apple macOS Passwords (iCloud KeyChain)"
   homepage "https://github.com/kezhenxu94/ipass"
-  url "https://github.com/kezhenxu94/ipass/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "f600ab4273ce94984d3a9858f820b6a4b5700cae7f7d5bbaf3c0b33c1282b029"
+  url "https://github.com/kezhenxu94/ipass/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "f146eb0a61aea7cb0e64dcf540f0c99980fd3f9b2e02a18e3e8ec605b26fa2b0"
   license "GPL-3.0-only"
 
   depends_on "rust" => :build
